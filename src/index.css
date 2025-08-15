@@ -1,0 +1,17 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+     background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000, #180a0e, #261217, #36161e, #5c1f2c, #832739, #ad2f42, #d73949);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.headerContainer{
+    background-color: black;
+}
+
