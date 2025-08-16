@@ -1,6 +1,6 @@
 export default function Portfolio({children}){
     return(
-        <section>
+        <section className="portfolio">
             <ul>{children}</ul>
         </section>
     )

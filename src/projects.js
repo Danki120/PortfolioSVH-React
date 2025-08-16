@@ -1,4 +1,4 @@
-export const portfolioProjects = [
+export const PROJECTS = [
     {
        id: 'prima',
        gifOne: '',
@@ -12,25 +12,25 @@ export const portfolioProjects = [
        id: 'steve',
        gifOne: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnN2NWZ1bnBlcTByOHpkY3RsM3BheXY3OXAzMGhoOW1qeWhiejFxaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MU99QzdJ03NW5kPMrO/giphy.gif',
        gifTwo: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExanI4Y2QwMHFwZ2RpZ2d1YWRuZ25ieHMzMTBsYnJ0ZTdsdmt0bTdlYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2flKaMaJ0uSCQx550u/giphy.gif',
-       gifThree: '',
+       gifThree: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajdwZHVlbTgzOW45MHRxeHVnYnBhNmJud3R6Zm1wZXZiZ2ZseDc1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WLzDn45p9tYEPkG63u/giphy.gif',
        title: 'Breaking Steve',
        tag: 'Skit comédico',
        roles: 'Director Editor', 
     },
     {
        id: 'freddy',
-       gifOne: '',
-       gifTwo: '',
-       gifThree: '',
+       gifOne: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2Nsb2d4dXphc2JidTI2NzhuajMyZmg5d3I1b3h1eXlmNnEzNXkzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5yW1vWyCSFkDVpDPYo/giphy.gif',
+       gifTwo: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R5Y3NsZTg4cmo3enVmcmYyZ2xhNzY4cmlvMDhoYnFjMDRlaDJ4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yklLwZ9ljWUXQ4YOE9/giphy.gif',
+       gifThree: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDM0NGdrNnB0OWxyZWJ1N3lydjM2Y3I5enc3Y2EybW1lb2h4enE4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PkJUFrKmPosK19VowT/giphy.gif',
        title: 'Five Nights at Tariks',
        tag: 'Skit comédico',
        roles: 'Director Productor  Editor', 
     },
     {
        id: 'maquina',
-       gifOne: '',
-       gifTwo: '',
-       gifThree: '',
+       gifOne: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHJ0c282ODR3MDg2MnV5M3g1a3FtZXVwajF3ajd5enZ2bHVodmxhMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JNlwFQyOm6GbNpI192/giphy.gif',
+       gifTwo: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXQ5YmRqNXdhNjJ4azZpaDRrZ212bmkxcDI5d2g4ZzIxbnVkNGJjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/719aZUAlE488DhE2N2/giphy.gif',
+       gifThree: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDBmMTR3dHJvODhxajc3dnN0eXdlbzRhamNxY3RjaXBwcXE5aWgweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tgWuCJfwa1kr9kbubz/giphy.gif',
        title: 'Máquina Revolcadora',
        tag: 'Skit comédico',
        roles: 'Editor', 

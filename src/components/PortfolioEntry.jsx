@@ -1,16 +1,19 @@
-import { portfolioProjects } from "../projects"
-
-export default function PortfolioEntry({name}) {
+export default function PortfolioEntry({gifOne, gifTwo, gifThree, title, tag, roles}) {
     return(
-        <li className="portfolioEntry" key={name.id}>
-            <title>{name.title}</title>
-            <div className="gifContainer">
-                <img src={name.gifOne} alt="" />
-                <img src={name.gifTwo} alt="" />
-                <img src={name.gifThree} alt="" />
-            </div>
-            <span>{name.tag}</span>
-            <span>{name.roles}</span>
-        </li>
+        <a href="">
+            <article className="portfolioEntry">
+                <p>{title}</p>
+                <div className="gifContainer">
+                    {gifOne != '' && <img src={gifOne} alt="" />}
+                    {gifTwo != '' && <img src={gifTwo} alt="" />}
+                    {gifThree != '' && <img src={gifThree} alt="" />}
+                </div>
+                <div className="extraInfo">
+                    <span>{tag}</span>
+                    <span>{roles}</span>
+                </div>    
+            </article>
+        </a>
+        
     )
 }

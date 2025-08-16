@@ -6,12 +6,60 @@ html, body{
 
 body{
     height: 100%;
-     background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000, #180a0e, #261217, #36161e, #5c1f2c, #832739, #ad2f42, #d73949);
+    /* background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000, #180a0e, #261217, #36161e, #5c1f2c, #832739, #ad2f42, #d73949);
      background-size: cover;
-     background-repeat: no-repeat;
+     background-repeat: no-repeat;*/
 }
+
+/* header */
 
 .headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
     background-color: black;
+    color: white;
+    margin-top: 0px;
 }
 
+.headerContainer img{
+    height: 50px;
+    margin: 20px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.informacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*portfolio*/
+
+.portfolio li{
+    list-style-type: none;
+}
+
+.portfolioEntry{
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio p{
+    align-self: flex-start;
+    font-size: 1.5rem;
+}
+
+.gifContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 5rem;
+}
+
+
+
+.extraInfo{
+    display: flex;
+    justify-content: space-between;
+}
