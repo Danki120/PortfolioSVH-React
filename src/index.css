@@ -1,26 +1,41 @@
+@font-face {
+    font-family: 'Santi';
+    src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+
 html, body{
     height: 100%;
     padding: 0;
     margin: 0;
+    font-family: 'Santi';
 }
 
-body{
-    height: 100%;
-    /* background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000, #180a0e, #261217, #36161e, #5c1f2c, #832739, #ad2f42, #d73949);
-     background-size: cover;
-     background-repeat: no-repeat;*/
-}
 
 /* header */
+
+#root{
+    margin: 0;
+    padding: 0rem;
+    min-height: 100%;
+}
+
+.portfolioContainer{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
 
 .headerContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 2rem;
     background-color: black;
     color: white;
-    margin-top: 0px;
+    margin: 0;
+    min-width: 100%;
+    box-sizing: border-box;
 }
 
 .headerContainer img{
@@ -37,6 +52,22 @@ body{
 
 /*portfolio*/
 
+.portfolio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000, #180a0e, #261217, #36161e, #5c1f2c, #832739);
+    padding-right: 1rem;
+    margin: 0;
+   /* background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000, #180a0e, #261217, #36161e, #5c1f2c, #832739, #ad2f42, #d73949); */
+}
+
+.portfolio a{
+    color: white;
+    text-decoration: none;
+    
+}
+
 .portfolio li{
     list-style-type: none;
 }
@@ -44,6 +75,7 @@ body{
 .portfolioEntry{
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .portfolio p{
@@ -53,13 +85,25 @@ body{
 
 .gifContainer{
     display: flex;
-    justify-content: space-evenly;
-    flex-basis: 5rem;
+    justify-content: center;
 }
 
+.portfolioEntry img{
+    filter: grayscale(100%);
+    transition: filter 0.4s;
+}
 
+.portfolioEntry:hover img{
+    filter: grayscale(0%);
+}
+
+.gifContainer img{
+    max-height: 12rem;
+    object-fit: contain;
+}
 
 .extraInfo{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }

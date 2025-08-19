@@ -7,6 +7,7 @@ export const PROJECTS = [
        title: 'Obra Prima',
        tag: 'Skit comédico',
        roles: 'Editor   Cámara  Color', 
+       link: '',
     },
     {
        id: 'steve',
@@ -16,6 +17,7 @@ export const PROJECTS = [
        title: 'Breaking Steve',
        tag: 'Skit comédico',
        roles: 'Director Editor', 
+       link: 'https://www.behance.net/gallery/195742713/BREAKING-STEVE', 
     },
     {
        id: 'freddy',
@@ -25,6 +27,7 @@ export const PROJECTS = [
        title: 'Five Nights at Tariks',
        tag: 'Skit comédico',
        roles: 'Director Productor  Editor', 
+       link: 'https://www.behance.net/gallery/195741199/FIVE-NIGHTS-AT-TARIKS', 
     },
     {
        id: 'maquina',
@@ -34,6 +37,7 @@ export const PROJECTS = [
        title: 'Máquina Revolcadora',
        tag: 'Skit comédico',
        roles: 'Editor', 
+       link: 'https://www.behance.net/gallery/195744447/MAQUINA-REVOLCADORA-FAV-TINO-AMOR', 
     },
     {
        id: 'cumbre23',
@@ -43,6 +47,7 @@ export const PROJECTS = [
        title: 'Cumbre 2023',
        tag: 'Skit comédico',
        roles: 'Director Productor', 
+       link: 'https://www.behance.net/gallery/195745109/CUMBRE-2023', 
     },
     {
        id: 'yeet',
@@ -52,5 +57,6 @@ export const PROJECTS = [
        title: 'YEET SMASH',
        tag: 'Skit comédico',
        roles: 'Editor   Director Creativo', 
+       link: 'https://www.behance.net/gallery/195747173/YEET-SMASH', 
     }
 ]

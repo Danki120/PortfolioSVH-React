@@ -1,6 +1,6 @@
-export default function PortfolioEntry({gifOne, gifTwo, gifThree, title, tag, roles}) {
+export default function PortfolioEntry({gifOne, gifTwo, gifThree, title, tag, roles, link}) {
     return(
-        <a href="">
+        <a href={link} target="_blank" rel="noopener noreferrer">
             <article className="portfolioEntry">
                 <p>{title}</p>
                 <div className="gifContainer">
