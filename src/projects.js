@@ -1,7 +1,7 @@
 export const PROJECTS = [
     {
        id: 'prima',
-       gifOne: '',
+       gifOne: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHlpb3h4YmlhODV5YXRhYWZvN2Y3dDZwbmF5OXJ4dDJsN25pNHlkbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BJBPCyz9GNTFR3aqfC/giphy-downsized-large.gif',
        gifTwo: '',
        gifThree: '',
        title: 'Obra Prima',
@@ -24,7 +24,7 @@ export const PROJECTS = [
        gifOne: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2Nsb2d4dXphc2JidTI2NzhuajMyZmg5d3I1b3h1eXlmNnEzNXkzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5yW1vWyCSFkDVpDPYo/giphy.gif',
        gifTwo: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2R5Y3NsZTg4cmo3enVmcmYyZ2xhNzY4cmlvMDhoYnFjMDRlaDJ4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yklLwZ9ljWUXQ4YOE9/giphy.gif',
        gifThree: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDM0NGdrNnB0OWxyZWJ1N3lydjM2Y3I5enc3Y2EybW1lb2h4enE4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PkJUFrKmPosK19VowT/giphy.gif',
-       title: 'Five Nights at Tariks',
+       title: "Five Nights at Tarik's",
        tag: 'Skit comédico',
        roles: 'Director Productor  Editor', 
        link: 'https://www.behance.net/gallery/195741199/FIVE-NIGHTS-AT-TARIKS', 

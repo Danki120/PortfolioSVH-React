@@ -1,0 +1,51 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    margin: 0;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.headerContainer img{
+    height: 50px;
+    margin: 20px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+#informacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerLeft{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+#headerLeft button{
+    height: 3rem;
+    width: 8rem;
+    margin-left: 2rem;
+    color: white;
+    background-color: #d73949;
+    border-radius: 12px;
+    text-decoration: solid;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: none;
+}
+
+#informacion h3{
+    margin-left: 10px;
+}
+
+#socials button{
+    border: none;
+    background-color: transparent;
+}

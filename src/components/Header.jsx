@@ -1,25 +1,41 @@
+import { Link } from 'react-router-dom';
+import '../styles/Header.css'
 import igLogo from '../assets/logos/instagramLogo.svg';
 import emailLogo from '../assets/logos/mailLogo.svg';
 
-export default function Header(currentPage) {
+export default function Header({currentPage}) {
+
+    function handleEmailButtonClick(){
+        navigator.clipboard.writeText("santiproductions@gmail.com");
+
+        alert("E-Mail copied to clipboard!!");
+    }
+
     return (
         <div className="headerContainer">
-            <h1>
-                SANTI HAITTEL
-            </h1>
+            <div id='headerLeft'>
+                <h1>
+                    SANTI HAITTEL
+                </h1>
+                {currentPage === 'portfolio' && 
+                    <Link to="/rent"><button>RENT</button></Link>
+                }
+                {currentPage === 'rent' && 
+                    <Link to="/portfolio"><button>PORTFOLIO</button></Link>
+                }
+            </div>
+                        
 
-            <button>RENT</button>
-
-            <section className="informacion">
+            <section id="informacion">
                 <h3>DIRECTOR</h3>
                 <h3>EDITOR</h3>
                 <h3>DP</h3>
             </section>
-            <section className='socials'>
-                <button>
+            <section id='socials'>
+                <a href='https://www.instagram.com/haittel/' target='_blank' rel='noopener noreferrer'>
                     <img src={igLogo} alt="Mi Instagram." />
-                </button>
-                <button>
+                </a>
+                <button onClick={() => (handleEmailButtonClick())}>
                     <img src={emailLogo} alt="Click para copiar el correo electrónico." />
                 </button>
                 
