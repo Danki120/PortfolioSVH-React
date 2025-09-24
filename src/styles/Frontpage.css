@@ -19,3 +19,7 @@
     color: white;
     text-decoration: none;
 }
+
+#frontpageContainer span{
+    margin-bottom: 10px;
+}

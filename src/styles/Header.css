@@ -41,6 +41,11 @@
     border: none;
 }
 
+#headerLeft button:hover{
+    background-color: #f54254;
+    cursor: pointer;
+}
+
 #informacion h3{
     margin-left: 10px;
 }

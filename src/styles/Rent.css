@@ -1,0 +1,10 @@
+#rentContainer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+#rentContainer li{
+    margin-bottom: 20px;
+}
