@@ -1,5 +1,15 @@
 export const PROJECTS = [
    {
+       id: 'reel',
+       gifOne: 'https://cdn.discordapp.com/attachments/351531298495397888/1424679842863124521/Compound_Clip_5_Render_1AAA.gif?ex=68e81fbf&is=68e6ce3f&hm=68a5eea71148b3aa131eb53945c25d1eeee42cebbe57a188ad38e70c6ac2666d&',
+       gifTwo: '',
+       gifThree: '',
+       title: 'VIDEO EDITOR REEL',
+       tag: '',
+       roles: '', 
+       link: 'https://youtu.be/6D_gPSNWnuQ?si=TyGg8QwCq9d2oskZ',
+    },
+   {
        id: 'ippon',
        gifOne: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTdzemNpd3k5bm1tM3NmZWViOXRnMWpsdWgya2g1M2E1NHR6dDVtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1SqtX1ERqLhxNTIt9r/giphy.gif',
        gifTwo: '',
@@ -7,17 +17,17 @@ export const PROJECTS = [
        title: 'IPPON: Ale Mora',
        tag: 'Documental',
        roles: 'Editor', 
-       link: '',
+       link: '/unreleased.html',
     },
    {
        id: 'dolls',
        gifOne: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXd3bWIwYTZicXpkbjQ5bjhxZ3FrYzI5NzI4Z2hocmQzaWNzbmVmOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hxxwzv1oSzUXfBTbso/giphy.gif',
        gifTwo: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTF2NmNldzdlOWw5ZmVmczVzYzlnaHB4dXhsdm8wMmpiN3FjdjdvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/icutSvEU7G19FOHDoX/giphy.gif',
        gifThree: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzU3cjh6aTlodnp2bThkbmUzY2Y4eXlqdXF1ZHh4ZHozZXdraDZkYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JBLRxa3PtEkuOqPX5O/giphy.gif',
-       title: 'My Soul - Whispering Dolls',
+       title: 'My Soul - Whispery Dolls',
        tag: 'Videoclip',
        roles: 'Director y editor', 
-       link: '',
+       link: '/unreleased.html',
     },
     {
        id: 'prima',
@@ -27,7 +37,7 @@ export const PROJECTS = [
        title: 'Obra Prima',
        tag: 'Cortometraje',
        roles: 'Editor y Cámara Op.', 
-       link: '',
+       link: '/unreleased.html',
     },
     {
        id: 'steve',

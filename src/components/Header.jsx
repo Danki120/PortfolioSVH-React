@@ -15,7 +15,7 @@ export default function Header({currentPage}) {
         <div className="headerContainer">
             <div id='headerLeft'>
                 <h1>
-                    SANTI HAITTEL
+                    <Link to='/' style={{textDecoration: 'none', color:'white'}}>SANTI HAITTEL</Link>
                 </h1>
                 {currentPage === 'portfolio' && 
                     <Link to="/rent"><button>RENT</button></Link>
@@ -26,11 +26,11 @@ export default function Header({currentPage}) {
             </div>
                         
 
-            <section id="informacion">
+            {/* <section id="informacion">
                 <h3>DIRECTOR</h3>
                 <h3>EDITOR</h3>
                 <h3>DP</h3>
-            </section>
+            </section> */}
             <section id='socials'>
                 <a href='https://www.instagram.com/haittel/' target='_blank' rel='noopener noreferrer'>
                     <img src={igLogo} alt="Mi Instagram." />

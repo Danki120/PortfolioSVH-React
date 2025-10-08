@@ -8,6 +8,7 @@
     margin: 0;
     min-width: 100%;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .headerContainer img{
@@ -15,6 +16,11 @@
     margin: 20px;
     filter: invert(100%);
     cursor: pointer;
+    transition: filter 0.1s;
+}
+
+.headerContainer img:hover{
+    filter: invert(31%) sepia(92%) saturate(3294%) hue-rotate(336deg) brightness(90%) contrast(86%);
 }
 
 #informacion{
@@ -26,6 +32,10 @@
     display: flex;
     align-items: center;
     padding: 2rem;
+}
+
+h1{
+    color: white;
 }
 
 #headerLeft button{

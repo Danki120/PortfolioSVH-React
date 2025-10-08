@@ -3,8 +3,20 @@
     display: flex;
     justify-content: center;
     font-size: 1rem;
+    font-weight: bolder;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #rentContainer li{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#rentContainer p{
+    margin: 10px;
 }

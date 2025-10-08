@@ -13,6 +13,18 @@
 .frontpageElement{
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.frontpageElement span{
+    color: white;
+    transition:color 0.2s ease;
+}
+
+.frontpageElement:hover span{
+    color: #d73949;
 }
 
 #frontpageContainer a{
