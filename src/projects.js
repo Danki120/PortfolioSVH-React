@@ -1,12 +1,32 @@
 export const PROJECTS = [
+   {
+       id: 'ippon',
+       gifOne: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTdzemNpd3k5bm1tM3NmZWViOXRnMWpsdWgya2g1M2E1NHR6dDVtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1SqtX1ERqLhxNTIt9r/giphy.gif',
+       gifTwo: '',
+       gifThree: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnViODNnZWlhcnlucGI3bGJ0aWgxY2wwMzBucjJpeTllbDVwMHB0OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TCmTakI7zc2LgTL6cZ/giphy.gif',
+       title: 'IPPON: Ale Mora',
+       tag: 'Documental',
+       roles: 'Editor', 
+       link: '',
+    },
+   {
+       id: 'dolls',
+       gifOne: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXd3bWIwYTZicXpkbjQ5bjhxZ3FrYzI5NzI4Z2hocmQzaWNzbmVmOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hxxwzv1oSzUXfBTbso/giphy.gif',
+       gifTwo: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTF2NmNldzdlOWw5ZmVmczVzYzlnaHB4dXhsdm8wMmpiN3FjdjdvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/icutSvEU7G19FOHDoX/giphy.gif',
+       gifThree: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzU3cjh6aTlodnp2bThkbmUzY2Y4eXlqdXF1ZHh4ZHozZXdraDZkYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JBLRxa3PtEkuOqPX5O/giphy.gif',
+       title: 'My Soul - Whispering Dolls',
+       tag: 'Videoclip',
+       roles: 'Director y editor', 
+       link: '',
+    },
     {
        id: 'prima',
        gifOne: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHlpb3h4YmlhODV5YXRhYWZvN2Y3dDZwbmF5OXJ4dDJsN25pNHlkbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BJBPCyz9GNTFR3aqfC/giphy-downsized-large.gif',
        gifTwo: '',
        gifThree: '',
        title: 'Obra Prima',
-       tag: 'Skit comédico',
-       roles: 'Editor   Cámara  Color', 
+       tag: 'Cortometraje',
+       roles: 'Editor y Cámara Op.', 
        link: '',
     },
     {
@@ -16,7 +36,7 @@ export const PROJECTS = [
        gifThree: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajdwZHVlbTgzOW45MHRxeHVnYnBhNmJud3R6Zm1wZXZiZ2ZseDc1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WLzDn45p9tYEPkG63u/giphy.gif',
        title: 'Breaking Steve',
        tag: 'Skit comédico',
-       roles: 'Director Editor', 
+       roles: 'Director y editor', 
        link: 'https://www.behance.net/gallery/195742713/BREAKING-STEVE', 
     },
     {
@@ -26,7 +46,7 @@ export const PROJECTS = [
        gifThree: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDM0NGdrNnB0OWxyZWJ1N3lydjM2Y3I5enc3Y2EybW1lb2h4enE4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PkJUFrKmPosK19VowT/giphy.gif',
        title: "Five Nights at Tarik's",
        tag: 'Skit comédico',
-       roles: 'Director Productor  Editor', 
+       roles: 'Director y editor', 
        link: 'https://www.behance.net/gallery/195741199/FIVE-NIGHTS-AT-TARIKS', 
     },
     {
@@ -35,7 +55,7 @@ export const PROJECTS = [
        gifTwo: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXQ5YmRqNXdhNjJ4azZpaDRrZ212bmkxcDI5d2g4ZzIxbnVkNGJjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/719aZUAlE488DhE2N2/giphy.gif',
        gifThree: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDBmMTR3dHJvODhxajc3dnN0eXdlbzRhamNxY3RjaXBwcXE5aWgweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tgWuCJfwa1kr9kbubz/giphy.gif',
        title: 'Máquina Revolcadora',
-       tag: 'Skit comédico',
+       tag: 'Videoclip',
        roles: 'Editor', 
        link: 'https://www.behance.net/gallery/195744447/MAQUINA-REVOLCADORA-FAV-TINO-AMOR', 
     },
@@ -45,8 +65,8 @@ export const PROJECTS = [
        gifTwo: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGVoMnRycmVrMmUzanhhZXk3aG4wOTRtM253bG9mZjg1ZjU4N3N3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j6KoHR6MU7J0u9FGCc/giphy.gif',
        gifThree: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTJua3h2aTRxcHZ4azQ4dHplYXhsMW0wbnlmbDUxMjQ1a2N5NjVqMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tviSwvVzZX3cwlcj5F/giphy.gif',
        title: 'Cumbre 2023',
-       tag: 'Skit comédico',
-       roles: 'Director Productor', 
+       tag: 'evento',
+       roles: 'Productor y Director de stream', 
        link: 'https://www.behance.net/gallery/195745109/CUMBRE-2023', 
     },
     {
@@ -55,8 +75,8 @@ export const PROJECTS = [
        gifTwo: '',
        gifThree: '',
        title: 'YEET SMASH',
-       tag: 'Skit comédico',
-       roles: 'Editor   Director Creativo', 
+       tag: 'Canal de Youtube',
+       roles: 'Editor y director Creativo', 
        link: 'https://www.behance.net/gallery/195747173/YEET-SMASH', 
     }
 ]

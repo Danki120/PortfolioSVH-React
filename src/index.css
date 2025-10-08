@@ -3,6 +3,16 @@
     src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
 }
 
+@font-face {
+    font-family: 'OSCL';
+    src: url(./assets/fonts/OpenSans-CondLight.ttf);
+}
+
+@font-face {
+    font-family: 'OSCSB';
+    src: url(./assets/fonts/Open_Sans_Condensed_SemiBold.ttf);
+}
+
 html, body{
     background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000, #000000, #180a0e, #261217, #36161e, #5c1f2c, #832739);
     background-size: cover;
@@ -63,8 +73,9 @@ html, body{
 }
 
 .portfolio p{
-    align-self: flex-start;
+    align-self: center;
     font-size: 1.5rem;
+    font-family: 'OSCSB';
 }
 
 .gifContainer{
@@ -87,6 +98,7 @@ html, body{
 }
 
 .extraInfo{
+    font-family: 'OSCL';
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
