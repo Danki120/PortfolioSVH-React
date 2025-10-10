@@ -7,15 +7,15 @@ import Portfolio from './components/Portfolio.jsx'
 
 const router = createHashRouter([
   {
-    path: '/',
+    path: '/PortfolioSVH-React',
     element: <App url='home'/>,
   },
   {
-    path: '/portfolio',
+    path: '/PortfolioSVH-React/portfolio',
     element: <App url='portfolio' />
   },
   {
-    path: 'rent',
+    path: 'PortfolioSVH-React/rent',
     element: <App url='rent' />
   }
 ]);
