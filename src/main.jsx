@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider, HashRouter, createHashRouter } fro
 import App from './App.jsx'
 import Portfolio from './components/Portfolio.jsx'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: '/',
     element: <App url='home'/>,
