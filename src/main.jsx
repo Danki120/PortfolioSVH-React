@@ -22,8 +22,6 @@ const router = createHashRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-      <HashRouter>
         <RouterProvider router={router}/>
-      </HashRouter>
   </StrictMode>,
 )
