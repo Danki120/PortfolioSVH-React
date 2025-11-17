@@ -1,7 +1,7 @@
 export const PROJECTS = [
    {
        id: 'reel',
-       gifOne: 'https://cdn.discordapp.com/attachments/351531298495397888/1424679842863124521/Compound_Clip_5_Render_1AAA.gif?ex=68e81fbf&is=68e6ce3f&hm=68a5eea71148b3aa131eb53945c25d1eeee42cebbe57a188ad38e70c6ac2666d&',
+       gifOne: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3h3MjBqaWpqNnRucG9pZWFicmp3MXF1OGhsbjBkYnJma3hyZ2l2cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3GKWcOt5gfP45FtA7M/giphy.gif',
        gifTwo: '',
        gifThree: '',
        title: 'VIDEO EDITOR REEL',
