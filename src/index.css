@@ -64,6 +64,7 @@ html, body{
 }
 
 .portfolioEntry{
+    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     margin: 30px;
