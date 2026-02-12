@@ -7,7 +7,7 @@ export const PROJECTS = [
        title: 'VIDEO EDITOR REEL',
        tag: '',
        roles: '', 
-       link: 'https://youtu.be/6D_gPSNWnuQ?si=TyGg8QwCq9d2oskZ',
+       link: 'https://youtu.be/sowgJ6QIjss?si=QFLYtrsbbIF6n3YM',
     },
    {
        id: 'ippon',
