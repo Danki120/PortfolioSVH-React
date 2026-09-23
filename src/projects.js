@@ -9,6 +9,16 @@ export const PROJECTS = [
        roles: '', 
        link: 'https://youtu.be/k9rVjQuAwcI?si=P8B76pR9tMr05YjH',
     },
+    {
+       id: 'XTC',
+       gifOne: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzlldnVmMHo0MXUzMHRodWNqb2djamoyeXExOW9xaGJmc2todjdtciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ZtGVUBGDjxv9Z9Shg/giphy.gif',
+       gifTwo: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNobGMxZ2FjejExdHBnZTl3eXJtaGM4cnpsdjNzMDdqNGg5YmJkOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I6x8EItOw2Ez8QTG2W/giphy.gif',
+       gifThree: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ28wNm94ZGF2dXV1NTM2cGE2b2M1MGRpMmsxaDJoeXc1ZXl4enhiYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MyXioz1jLvuGYgXqCN/giphy.gif',
+       title: '"XTC" - Chapo, (loo)k',
+       tag: 'Video Musical',
+       roles: 'Cinematografo', 
+       link: '/unreleased.html',
+    },
    {
        id: 'ippon',
        gifOne: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTdzemNpd3k5bm1tM3NmZWViOXRnMWpsdWgya2g1M2E1NHR6dDVtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1SqtX1ERqLhxNTIt9r/giphy.gif',
