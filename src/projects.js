@@ -1,13 +1,13 @@
 export const PROJECTS = [
    {
        id: 'reel',
-       gifOne: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3h3MjBqaWpqNnRucG9pZWFicmp3MXF1OGhsbjBkYnJma3hyZ2l2cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3GKWcOt5gfP45FtA7M/giphy.gif',
+       gifOne: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTZzYzBrdW5vODAxNmFpcTh1bTByb2p5MjIzOGp1YjVkNHVmbm1rMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p8r69siLk11yKq8DWo/giphy.gif',
        gifTwo: '',
        gifThree: '',
        title: 'VIDEO EDITOR REEL',
        tag: '',
        roles: '', 
-       link: 'https://youtu.be/sowgJ6QIjss?si=QFLYtrsbbIF6n3YM',
+       link: 'https://youtu.be/k9rVjQuAwcI?si=P8B76pR9tMr05YjH',
     },
    {
        id: 'ippon',
