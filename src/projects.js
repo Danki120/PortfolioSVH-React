@@ -23,7 +23,7 @@ export const PROJECTS = [
        id: 'palestina',
        gifOne: 'https://media.giphy.com/media/GWxqN0OALkVKyv5Yhr/giphy.gif',
        gifTwo: '',
-       gifThree: 'https://media.giphy.com/media/nXtTffoRqleBlID2st/giphy.gif',
+       gifThree: 'https://media.giphy.com/media/8pet15DvpRNRK286KI/giphy.gif',
        title: 'Del Otro Lado del Mundo (2027 / WIP)',
        tag: 'Largometraje Documental',
        roles: 'Director, Editor, Colorista, Camarógrafo', 
